@@ -1,61 +1,40 @@
-\t (00:00:16) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:16)     Journal start - Wed Jul 31 16:16:13 2019
-\t (00:00:16)         Host=USER-PC User=user Pid=8332 CPUs=4
-\t (00:00:16) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
-\t (00:00:16) 
-   (00:00:16) Loading axlcore.cxt 
-\t (00:00:23) Opening existing design...
-\d (00:00:24) Design opened: C:/USERS/USER/DESKTOP/신성욱 교수님/EXAM/0731_2/allegro/DAC.brd
-\i (00:00:24) trapsize 638
-\i (00:00:24) trapsize 653
-\i (00:00:24) trapsize 694
-\i (00:00:24) trapsize 705
-\i (00:00:24) trapsize 10439
-\i (00:00:24) generaledit 
-\i (00:00:29) artwork 
-\i (00:00:30) setwindow form.film_control
-\i (00:00:30) FORM film_control filmtree  DrillDraw 
-\i (00:00:31) FORM film_control filmtree popup Add 'BOARD GEOMETRY/DESIGN_OUTLINE' DrillDraw 
-\i (00:00:33) setwindow form.scl_browser
-\i (00:00:33) FORM scl_browser treelist  'BOARD GEOMETRY' 
-\i (00:00:34) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
-\i (00:00:35) FORM scl_browser done  
+\t (00:00:17) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:17)     Journal start - Wed Jul 31 16:19:11 2019
+\t (00:00:17)         Host=USER-PC User=user Pid=3336 CPUs=4
+\t (00:00:17) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:17) 
+   (00:00:17) Loading axlcore.cxt 
+\t (00:00:25) Opening existing design...
+\d (00:00:25) Design opened: C:/USERS/USER/DESKTOP/신성욱 교수님/EXAM/0731_2/allegro/DAC.brd
+\i (00:00:25) trapsize 678
+\i (00:00:25) trapsize 694
+\i (00:00:25) trapsize 737
+\i (00:00:25) trapsize 749
+\i (00:00:25) trapsize 11090
+\i (00:00:26) generaledit 
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 81.973 28.989
+\i (00:00:31) trapsize 375
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 82.648 28.690
+\i (00:00:31) trapsize 749
+\i (00:00:34) artwork 
 \i (00:00:37) setwindow form.film_control
-\i (00:00:37) FORM film_control filmtree popup Add 'BOARD GEOMETRY/DESIGN_OUTLINE' DrillDraw 
-\i (00:00:38) setwindow form.scl_browser
-\i (00:00:38) FORM scl_browser treelist  'BOARD GEOMETRY' 
-\i (00:00:40) FORM scl_browser treelist  OUTLINE 'BOARD GEOMETRY' 
-\i (00:00:40) FORM scl_browser treelist 'MULTISEL YES' OUTLINE 'BOARD GEOMETRY' 
-\i (00:00:41) FORM scl_browser done  
-   (00:00:41) WARNING(SPMHA2-118): Board Geometry subclasses, 'DESIGN_OUTLINE' and 'CUTOUT', are the preferred subclasses for defining a board outline. Use these subclasses instead of the 'OUTLINE' subclass.
-\i (00:00:42) fillin confirm
-\i (00:00:43) setwindow form.film_control
-\i (00:00:43) FORM film_control ok  
-\i (00:00:44) setwindow pcb
-\i (00:00:44) generaledit 
-\i (00:00:45) save 
-\i (00:00:46) fillin yes 
-\i (00:00:46) generaledit 
-\i (00:00:55) artwork 
-\i (00:00:56) setwindow form.film_control
-\i (00:00:56) FORM film_control select_all  
-\i (00:00:57) FORM film_control create  
-\i (00:00:59) fillin yes 
-\t (00:00:59) Starting Create artwork films...
-\w (00:00:59) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:01:00) Artwork generated with warnings.
-\i (00:01:02) setwindow text
-\i (00:01:02) close 
-\i (00:01:02) setwindow form.film_control
-\i (00:01:02) FORM film_control ok  
-\i (00:01:02) setwindow pcb
-\i (00:01:02) generaledit 
-\i (00:01:04) exit 
-\e (00:01:04) Do you want to save the changes you made to C:/USERS/USER/DESKTOP/신성욱 교수님/EXAM/0731_2/allegro/DAC.brd?
-\i (00:01:06) fillin menu_cancel 
-\i (00:01:06) generaledit 
-\i (00:01:07) save 
-\i (00:01:08) fillin yes 
-\i (00:01:08) generaledit 
-\i (00:01:09) exit 
-\t (00:01:09)     Journal end - Wed Jul 31 16:17:06 2019
+\i (00:00:37) FORM film_control filmtree popup 'Display for Visibility' Design 
+\i (00:00:37) FORM film_control ok  
+\i (00:00:37) setwindow pcb
+\i (00:00:37) generaledit 
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 82.497 23.594
+\i (00:00:38) trapsize 375
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 67.738 26.816
+\i (00:00:39) trapsize 749
+\i (00:01:13) exit 
+\e (00:01:13) Do you want to save the changes you made to DAC.brd?
+\i (00:01:15) fillin no 
+\t (00:01:15)     Journal end - Wed Jul 31 16:20:08 2019
